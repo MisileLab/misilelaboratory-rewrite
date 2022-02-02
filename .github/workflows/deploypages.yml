@@ -1,5 +1,8 @@
 name: Build and Deploy
-on: [push]
+on:
+  push:
+    branches: 
+      - main
 jobs:
   build-and-deploy:
     concurrency: ci-${{ github.ref }}
@@ -18,4 +21,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.2.3
         with:
           branch: gh-pages
-          folder: ./public/build
+          folder: public
