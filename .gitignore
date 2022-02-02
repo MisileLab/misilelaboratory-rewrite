@@ -3,3 +3,6 @@
 
 .DS_Store
 .dccache
+
+*.log
+*.code-workspace
