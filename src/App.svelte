@@ -1,4 +1,9 @@
+<svelte:head>
+<title>{title}</title>
+</svelte:head>
+
 <script>
+	export let title = "MisileLaboratory"
 	import { reveal } from 'svelte-reveal';
 </script>
 
