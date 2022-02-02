@@ -8,8 +8,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: install tools
-        run: yarn global add rollup
+      - name: install dependencies
+        run: yarn install
 
       - name: Build
         run: yarn build
