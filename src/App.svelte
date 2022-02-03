@@ -7,6 +7,7 @@
 	import { reveal } from 'svelte-reveal';
 </script>
 
+
 <body>
 	<main>
 		<h1 use:reveal={{ transition: "slide", reset: true }}>Welcome to MisileLaboratory</h1>
@@ -117,17 +118,13 @@
 			margin: auto;
 			margin-top: 10px;
 		}
-
-		@media (min-width: 640px) {
-			main {
-				max-width: none;
-			}
-		}
 	</style>
 </body>
 
 <style>
 	body {
 		background-color: #ECC488;
+		max-width: 1920;
+		max-height: 1080;
 	}
 </style>
