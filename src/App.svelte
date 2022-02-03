@@ -10,27 +10,28 @@
 
 <body>
 	<main>
-		<h1 use:reveal={{ transition: "slide", reset: true }}>Welcome to MisileLaboratory</h1>
+		<h1 use:reveal={{ transition: "slide", reset: true, duration: 500 }}>Welcome to MisileLaboratory</h1>
 		<description use:reveal={{ transition: "slide", reset: true, duration: 1000 }}>
 		Misilelaboratory make a open source program that does not exist or improve than others.
 		</description>
 		<projectstitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Projects</projectstitle>
 		<details id="details" use:reveal={{ transition: "slide", reset: true, duration: 2500}}>
 			<summary>2021</summary>
-			<a id="furluck-bot" href="https://github.com/MisileLab/FurLuck-Bot/">furluck bot</a>
+			<a id="furluck-bot" href="https://github.com/MisileLab/FurLuck-Bot/" use:reveal={{ transition: "slide", reset: true, duration: 500 }}>furluck bot</a>
 		</details>
 		<details id="details" use:reveal={{ transition: "slide", reset: true, duration: 3000}}>
 			<summary>2022</summary>
-			<a id="dura" href="https://crates.io/crates/dura">dura release</a>
+			<a id="dura" href="https://crates.io/crates/dura" use:reveal={{ transition: "slide", reset: true, duration: 500 }}>dura release</a>
+			<a id="pythonvcs" href="https://github.com/MisileLab/PythonVCS" use:reveal={{ transition: "slide", reset: true, duration: 1000 }}>PythonVCS</a>
 		</details>
 		<teamstitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Teams</teamstitle>
 		<details id="details" use:reveal={{ transition: "slide", reset: true, duration: 2500}}>
 			<summary>2021</summary>
-			<a id="team-int" href="https://github.com/Team-int">team int</a>
+			<a id="team-int" href="https://github.com/Team-int" use:reveal={{ transition: "slide", reset: true, duration: 500 }}>team int</a>
 		</details>
 		<details id="details" use:reveal={{ transition: "slide", reset: true, duration: 3000}}>
 			<summary>2022</summary>
-			<a id="spacedev" href="https://github.com/spacedev-official">spacedev</a>
+			<a id="spacedev" href="https://github.com/spacedev-official" use:reveal={{ transition: "slide", reset: true, duration: 500 }}>spacedev</a>
 		</details>
 		<profilestitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Profiles</profilestitle>
 		<div class="profile">
@@ -124,7 +125,7 @@
 <style>
 	body {
 		background-color: #ECC488;
-		max-width: 1920;
-		max-height: 1080;
+		min-width: 1920px;
+		min-height: 1080px;
 	}
 </style>
