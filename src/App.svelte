@@ -5,6 +5,14 @@
 <script>
 	export let title = "MisileLaboratory"
 	import { reveal } from 'svelte-reveal';
+	import { fade, fly } from 'svelte/transition';
+	let visible = {
+		projects2021: false,
+		projects2022: false,
+		orgs2021: false,
+		orgs2022: false
+	};
+	let flyx = -40
 </script>
 
 
@@ -15,34 +23,42 @@
 		Misilelaboratory make a open source program that does not exist or improve than others.
 		</description>
 		<projectstitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Projects</projectstitle>
-		<details id="details" use:reveal={{ transition: "slide", reset: true, duration: 2500}}>
+		<details id="details" use:reveal={{ transition: "slide", reset: true, duration: 2500}} bind:open={visible["projects2021"]}>
 			<summary>2021</summary>
-			<a id="furluck-bot" href="https://github.com/MisileLab/FurLuck-Bot/" use:reveal={{ transition: "slide", reset: true, duration: 500 }}>furluck bot</a>
+			{#if visible["projects2021"]}
+				<a href="https://github.com/MisileLab/FurLuck-Bot/" transition:fly="{{ x: flyx, duration: 1000 }}">furluck bot</a>
+			{/if}
 		</details>
-		<details id="details" use:reveal={{ transition: "slide", reset: true, duration: 3000}}>
+		<details id="details" use:reveal={{ transition: "slide", reset: true, duration: 3000}} bind:open={visible["projects2022"]}>
 			<summary>2022</summary>
-			<a id="dura" href="https://crates.io/crates/dura" use:reveal={{ transition: "slide", reset: true, duration: 500 }}>dura release</a>
-			<a id="pythonvcs" href="https://github.com/MisileLab/PythonVCS" use:reveal={{ transition: "slide", reset: true, duration: 1000 }}>PythonVCS</a>
+			{#if visible["projects2022"]}
+				<a href="https://crates.io/crates/dura" transition:fly="{{ x: flyx, duration: 1000 }}">dura release</a>
+				<a href="https://github.com/MisileLab/PythonVCS" transition:fly="{{ x: flyx, duration: 1500 }}">PythonVCS</a>
+			{/if}
 		</details>
 		<teamstitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Teams</teamstitle>
-		<details id="details" use:reveal={{ transition: "slide", reset: true, duration: 2500}}>
+		<details id="details" use:reveal={{ transition: "slide", reset: true, duration: 2500}} bind:open={visible["orgs2021"]}>
 			<summary>2021</summary>
-			<a id="team-int" href="https://github.com/Team-int" use:reveal={{ transition: "slide", reset: true, duration: 500 }}>team int</a>
+			{#if visible["orgs2021"]}
+				<a href="https://github.com/Team-int" transition:fly="{{ x: flyx, duration: 1000 }}">team int</a>
+			{/if}
 		</details>
-		<details id="details" use:reveal={{ transition: "slide", reset: true, duration: 3000}}>
+		<details id="details" use:reveal={{ transition: "slide", reset: true, duration: 3000}} bind:open={visible["orgs2022"]}>
 			<summary>2022</summary>
-			<a id="spacedev" href="https://github.com/spacedev-official" use:reveal={{ transition: "slide", reset: true, duration: 500 }}>spacedev</a>
+			{#if visible["orgs2022"]}
+				<a href="https://github.com/spacedev-official" transition:fly="{{ x: flyx, duration: 1000 }}">spacedev</a>
+			{/if}
 		</details>
 		<profilestitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Profiles</profilestitle>
 		<div class="profile">
-			<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://github.com/misilelab/">Github</a>
-			<a use:reveal={{ transition: "slide", reset: true, duration: 3000}} href="https://gitlab.com/misilelab">Gitlab</a>
-			<a use:reveal={{ transition: "slide", reset: true, duration: 3500}} href="https://nest.pijul.com/MisileLab">Pijul nest</a>
-			<a use:reveal={{ transition: "slide", reset: true, duration: 4000}} href="https://gitea.chizstudio.com/MisileLaboratory">Gitea with NAS</a>
+			<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://github.com/misilelab/" id="github">Github</a>
+			<a use:reveal={{ transition: "slide", reset: true, duration: 3000}} href="https://gitlab.com/misilelab" id="gitlab">Gitlab</a>
+			<a use:reveal={{ transition: "slide", reset: true, duration: 3500}} href="https://nest.pijul.com/MisileLab" id="pijul">Pijul nest</a>
+			<a use:reveal={{ transition: "slide", reset: true, duration: 4000}} href="https://gitea.chizstudio.com/MisileLaboratory" id="gitea">Gitea with NAS</a>
 		</div>
 		<donatestitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Donate me</donatestitle>
 		<div class="donate">
-			<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://github.com/MisileLab/donatewithcrypto">Crypto</a>
+			<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://github.com/MisileLab/donatewithcrypto" id="donatecrypto">Crypto</a>
 		</div>
 	</main>
 
@@ -118,6 +134,10 @@
 			display: block;
 			margin: auto;
 			margin-top: 10px;
+		}
+
+		a {
+			display: block;
 		}
 	</style>
 </body>
