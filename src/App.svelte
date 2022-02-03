@@ -31,12 +31,16 @@
 			<summary>2022</summary>
 			<a id="spacedev" href="https://github.com/spacedev-official">spacedev</a>
 		</details>
-		<accountstitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Profiles</accountstitle>
-		<div class="account">
+		<profilestitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Profiles</profilestitle>
+		<div class="profile">
 			<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://github.com/misilelab/">Github</a>
 			<a use:reveal={{ transition: "slide", reset: true, duration: 3000}} href="https://gitlab.com/misilelab">Gitlab</a>
 			<a use:reveal={{ transition: "slide", reset: true, duration: 3500}} href="https://nest.pijul.com/MisileLab">Pijul nest</a>
 			<a use:reveal={{ transition: "slide", reset: true, duration: 4000}} href="https://gitea.chizstudio.com/MisileLaboratory">Gitea with NAS</a>
+		</div>
+		<donatestitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Donate me</donatestitle>
+		<div class="donate">
+			<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://github.com/MisileLab/donatewithcrypto">Crypto</a>
 		</div>
 	</main>
 
@@ -51,12 +55,17 @@
 			color: #B667F1;
 		}
 
-		.account {
+		.profile {
 			margin-left: 17.4%;
 			font-size: 1.5em;
 		}
 
-		accountstitle {
+		.donate {
+			margin-left: 17.4%;
+			font-size: 1.5em;
+		}
+
+		profilestitle {
 			margin: auto;
 			margin-top: 50px;
 			margin-left: 17.4%;
@@ -65,6 +74,15 @@
 		}
 
 		projectstitle {
+			display: block;
+			color: #9C51E0;
+			font-size: 1.7em;
+			margin: auto;
+			margin-top: 50px;
+			margin-left: 17.4%;
+		}
+
+		donatestitle {
 			display: block;
 			color: #9C51E0;
 			font-size: 1.7em;
