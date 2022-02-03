@@ -1,7 +1,10 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    # Raise pull requests to update vendored dependencies that are checked in to the repository
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
