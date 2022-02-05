@@ -60,6 +60,7 @@
 		<div class="donate">
 			<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://github.com/MisileLab/donatewithcrypto" id="donatecrypto">Crypto</a>
 		</div>
+		<script src="https://gist.github.com/MisileLab/5d19a8216e9376ae5ec36a768fd8fdff.js"></script>
 	</main>
 
 	<style>
