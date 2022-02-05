@@ -5,14 +5,14 @@
 <script>
 	export let title = "MisileLaboratory"
 	import { reveal } from 'svelte-reveal';
-	import { fade, fly } from 'svelte/transition';
+	import { fly } from 'svelte/transition';
 	let visible = {
 		projects2021: false,
 		projects2022: false,
 		orgs2021: false,
 		orgs2022: false
 	};
-	let flyx = -40
+	let flyx = -40;
 </script>
 
 
@@ -60,12 +60,23 @@
 		<div class="donate">
 			<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://github.com/MisileLab/donatewithcrypto" id="donatecrypto">Crypto</a>
 		</div>
-		<script src="https://gist.github.com/MisileLab/5d19a8216e9376ae5ec36a768fd8fdff.js"></script>
+		<details id="gistgithub" use:reveal={{ transition: "slide", reset: true, duration: 3000}}>
+			<summary>Commit history</summary>
+			<iframe title="gistgithub" src="https://gist.github.com/MisileLab/5d19a8216e9376ae5ec36a768fd8fdff.pibb" frameborder=0 scrolling="no" style="width: 459px;"></iframe>
+		</details>
 	</main>
 
 	<style>
+
 		main {
 			font-weight: 100;
+		}
+
+		#gistgithub {
+			margin-top: 20px;
+			margin-left: 17.4%;
+			font-size: 1.5em;
+			color: #B667F1;
 		}
 
 		#details {
@@ -144,9 +155,15 @@
 </body>
 
 <style>
+
 	body {
 		background-color: #ECC488;
-		min-width: 1920px;
-		min-height: 1080px;
+	}
+
+	@media (min-width: 640px) {
+		body {
+			min-width: 1920px;
+			min-height: 1080px;
+		}
 	}
 </style>
