@@ -53,8 +53,7 @@
 		<div class="profile">
 			<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://github.com/misilelab/" id="github">Github</a>
 			<a use:reveal={{ transition: "slide", reset: true, duration: 3000}} href="https://gitlab.com/misilelab" id="gitlab">Gitlab</a>
-			<a use:reveal={{ transition: "slide", reset: true, duration: 3500}} href="https://nest.pijul.com/MisileLab" id="pijul">Pijul nest</a>
-			<a use:reveal={{ transition: "slide", reset: true, duration: 4000}} href="https://gitea.chizstudio.com/MisileLaboratory" id="gitea">Gitea with NAS</a>
+			<a use:reveal={{ transition: "slide", reset: true, duration: 3500}} href="https://gitea.chizstudio.com/MisileLaboratory" id="gitea">Gitea with NAS</a>
 		</div>
 		<donatestitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Donate me</donatestitle>
 		<div class="donate">
