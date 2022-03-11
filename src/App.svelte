@@ -2,6 +2,8 @@
 <title>{title}</title>
 </svelte:head>
 
+<meta name="google-site-verification" content="wIufZduQxG1w_R25DIqSac3D2qFqWTO52Wom4ozQXqU" />
+
 <script>
 	export let title = "MisileLaboratory"
 	import { reveal } from 'svelte-reveal';
@@ -33,7 +35,8 @@
 			<summary>2022</summary>
 			{#if visible["projects2022"]}
 				<a href="https://crates.io/crates/dura" transition:fly="{{ x: flyx, duration: 1000 }}">dura release</a>
-				<a href="https://github.com/MisileLab/PythonVCS" transition:fly="{{ x: flyx, duration: 1500 }}">PythonVCS</a>
+				<a href="https://github.com/MisileLab/git-desktop" transition:fly="{{ x: flyx, duration: 1500 }}">Git desktop</a>
+				<a href="https://github.com/MisileLab/DartVCS" transition:fly="{{ x: flyx, duration: 2000 }}">DartVCS</a>
 			{/if}
 		</details>
 		<teamstitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Teams</teamstitle>
