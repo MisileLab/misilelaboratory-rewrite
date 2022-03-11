@@ -1,8 +1,7 @@
 <svelte:head>
 <title>{title}</title>
-</svelte:head>
-
 <meta name="google-site-verification" content="wIufZduQxG1w_R25DIqSac3D2qFqWTO52Wom4ozQXqU" />
+</svelte:head>
 
 <script>
 	export let title = "MisileLaboratory"
