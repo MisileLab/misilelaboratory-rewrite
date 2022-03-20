@@ -34,7 +34,7 @@
 			{#if visible["projects2022"]}
 				<a href="https://crates.io/crates/dura" transition:fly="{{ x: flyx, duration: 1000 }}">dura release</a>
 				<a href="https://github.com/MisileLab/git-desktop" transition:fly="{{ x: flyx, duration: 1500 }}">Git desktop</a>
-				<a href="https://github.com/MisileLab/DartVCS" transition:fly="{{ x: flyx, duration: 2000 }}">DartVCS</a>
+				<a href="https://github.com/MisileLab/RustVCS" transition:fly="{{ x: flyx, duration: 2000 }}">RustVCS</a>
 			{/if}
 		</details>
 		<teamstitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Teams</teamstitle>
