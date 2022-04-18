@@ -33,8 +33,10 @@
 			<summary>2022</summary>
 			{#if visible["projects2022"]}
 				<a href="https://crates.io/crates/dura" transition:fly="{{ x: flyx, duration: 1000 }}">dura release</a>
-				<a href="https://github.com/MisileLab/git-desktop" transition:fly="{{ x: flyx, duration: 1500 }}">Git desktop</a>
-				<a href="https://github.com/MisileLab/RustVCS" transition:fly="{{ x: flyx, duration: 2000 }}">RustVCS</a>
+				<a href="https://github.com/MisileLab/git-desktop" transition:fly="{{ x: flyx, duration: 1300 }}">Git desktop</a>
+				<a href="https://github.com/MisileLab/RustVCS" transition:fly="{{ x: flyx, duration: 1600 }}">RustVCS</a>
+				<a href="https://github.com/MisileLab/doxa-bot" transition:fly="{{ x: flyx, duration: 1900 }}">Doxa bot</a>
+				<a href="https://github.com/MisileLab/simple-random-numbers" transition:fly="{{ x: flyx, duration: 2100 }}">Random number generator</a>
 			{/if}
 		</details>
 		<teamstitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Teams</teamstitle>
