@@ -146,6 +146,7 @@
 			color: #8A39E1;
 			font-size: 3em;
 			font-weight: 100;
+			text-align: center;
 			display: block;
 			margin: auto;
 			margin-top: 10px;
