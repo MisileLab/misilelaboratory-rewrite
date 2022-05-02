@@ -138,6 +138,7 @@
 			display: block;
 			color: #9C51E0;
 			font-size: 2em;
+			text-align: center;
 			margin: auto;
 			margin-top: 40px;
 		}
