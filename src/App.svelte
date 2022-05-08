@@ -26,13 +26,13 @@
 		<details id="details" use:reveal={{ transition: "slide", reset: true, duration: 2500}} bind:open={visible["projects2021"]}>
 			<summary>2021</summary>
 			{#if visible["projects2021"]}
-				<a href="https://github.com/MisileLab/FurLuck-Bot/" transition:fly="{{ x: flyx, duration: 1000 }}">furluck bot</a>
+				<a href="https://github.com/MisileLab/FurLuck-Bot/" transition:fly="{{ x: flyx, duration: 1000 }}">Furluck bot</a>
 			{/if}
 		</details>
 		<details id="details" use:reveal={{ transition: "slide", reset: true, duration: 3000}} bind:open={visible["projects2022"]}>
 			<summary>2022</summary>
 			{#if visible["projects2022"]}
-				<a href="https://crates.io/crates/dura" transition:fly="{{ x: flyx, duration: 1000 }}">dura release</a>
+				<a href="https://crates.io/crates/dura" transition:fly="{{ x: flyx, duration: 1000 }}">Dura release</a>
 				<a href="https://github.com/MisileLab/Beryllium" transition:fly="{{ x: flyx, duration: 1200 }}">Beryllium</a>
 				<a href="https://github.com/MisileLab/RustVCS" transition:fly="{{ x: flyx, duration: 1400 }}">RustVCS</a>
 				<a href="https://github.com/MisileLab/doxa-bot" transition:fly="{{ x: flyx, duration: 1600 }}">Doxa bot</a>
@@ -57,7 +57,7 @@
 		<div class="profile">
 			<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://github.com/misilelab/" id="github">Github</a>
 			<a use:reveal={{ transition: "slide", reset: true, duration: 3000}} href="https://gitlab.com/misilelab" id="gitlab">Gitlab</a>
-			<a use:reveal={{ transition: "slide", reset: true, duration: 3500}} href="https://gitea.chizstudio.com/MisileLaboratory" id="gitea">Gitea with NAS</a>
+			<a use:reveal={{ transition: "slide", reset: true, duration: 3500}} href="https://gitea.misilelaboratory.xyz/MisileLaboratory" id="gitea">Gitea with NAS</a>
 		</div>
 		<donatestitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Donate me</donatestitle>
 		<div class="donate">
