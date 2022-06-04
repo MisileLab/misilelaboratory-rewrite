@@ -61,6 +61,7 @@
 		</div>
 		<donatestitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Donate me</donatestitle>
 		<div class="donate">
+			<a use:reveal={{ transition: "slide", reset: true, duration: 3000}} href="https://toss.me/misile" id="toss">Toss</a>
 			<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://github.com/MisileLab/donatewithcrypto" id="donatecrypto">Crypto</a>
 		</div>
 		<details id="gistgithub" use:reveal={{ transition: "slide", reset: true, duration: 3000}}>
