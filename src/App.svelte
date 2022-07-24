@@ -57,7 +57,8 @@ Misilelaboratory make a open source program that does not exist or improve than 
 <div class="profile">
 	<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://github.com/misilelab/" id="github">Github</a>
 	<a use:reveal={{ transition: "slide", reset: true, duration: 3000}} href="https://gitlab.com/misilelab" id="gitlab">Gitlab</a>
-	<a use:reveal={{ transition: "slide", reset: true, duration: 3500}} href="https://gitea.misilelaboratory.xyz/MisileLaboratory" id="gitea">Gitea with NAS</a>
+	<a use:reveal={{ transition: "slide", reset: true, duration: 3500}} href="https://gitea.misilelaboratory.xyz/MisileLaboratory" id="gitea">Gitea</a>
+	<a use:reveal={{ transition: "slide", reset: true, duration: 4000}} href="https://monochrome.misilelaboratory.xyz">Monochrome</a>
 </div>
 <donatestitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Donate me</donatestitle>
 <div class="donate">
