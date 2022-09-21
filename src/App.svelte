@@ -23,23 +23,23 @@ misilelaboratory make a open source program that does not exist or improve than 
 <details id="details" use:reveal={{ transition: "slide", reset: true, duration: 2500}} bind:open={visible["projects2021"]}>
 	<summary>2021</summary>
 	{#if visible["projects2021"]}
-		<a href="https://github.com/MisileLab/FurLuck-Bot/" transition:fly="{{ x: flyx, duration: 1000 }}">furluck bot</a>
+		<a href="https://github.com/misilelab/furluck-bot/" transition:fly="{{ x: flyx, duration: 1000 }}">furluck bot</a>
 	{/if}
 </details>
 <details id="details" use:reveal={{ transition: "slide", reset: true, duration: 3000}} bind:open={visible["projects2022"]}>
 	<summary>2022</summary>
 	{#if visible["projects2022"]}
 		<a href="https://crates.io/crates/dura" transition:fly="{{ x: flyx, duration: 1000 }}">Dura release</a>
-		<a href="https://github.com/MisileLab/simple-random-numbers" transition:fly="{{ x: flyx, duration: 1200 }}">random number generator</a>
-		<a href="https://github.com/MisileLab/doxa-sherry-alarm" transition:fly="{{ x: flyx, duration: 1400 }}">doxa sherry alarm</a>
-		<a href="https://github.com/MisileLab3/ideas" transition:fly="{{ x: flyx, duration: 1600}}">momoi</a>
+		<a href="https://github.com/misilelab/simple-random-numbers" transition:fly="{{ x: flyx, duration: 1200 }}">random number generator</a>
+		<a href="https://github.com/misilelab/doxa-sherry-alarm" transition:fly="{{ x: flyx, duration: 1400 }}">doxa sherry alarm</a>
+		<a href="https://github.com/misilelab3/ideas" transition:fly="{{ x: flyx, duration: 1600}}">momoi</a>
 	{/if}
 </details>
 <teamstitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Teams</teamstitle>
 <details id="details" use:reveal={{ transition: "slide", reset: true, duration: 2500}} bind:open={visible["orgs2021"]}>
 	<summary>2021</summary>
 	{#if visible["orgs2021"]}
-		<a href="https://github.com/Team-int" transition:fly="{{ x: flyx, duration: 1000 }}">team int</a>
+		<a href="https://github.com/team-int" transition:fly="{{ x: flyx, duration: 1000 }}">team int</a>
 	{/if}
 </details>
 <details id="details" use:reveal={{ transition: "slide", reset: true, duration: 3000}} bind:open={visible["orgs2022"]}>
@@ -55,13 +55,12 @@ misilelaboratory make a open source program that does not exist or improve than 
 <div class="profile">
 	<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://github.com/misilelab">Github</a>
 	<a use:reveal={{ transition: "slide", reset: true, duration: 3000}} href="https://gitlab.com/misilelab">Gitlab</a>
-	<a use:reveal={{ transition: "slide", reset: true, duration: 3500}} href="https://gitea.misilelaboratory.xyz/MisileLaboratory">Gitea</a>
+	<a use:reveal={{ transition: "slide", reset: true, duration: 3500}} href="https://gitea.misilelaboratory.xyz/misilelaboratory">Gitea</a>
 	<a use:reveal={{ transition: "slide", reset: true, duration: 4000}} href="https://monochrome.misilelaboratory.xyz">Monochrome</a>
 </div>
 <donatestitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Donate me</donatestitle>
 <div class="donate">
-	<a use:reveal={{ transition: "slide", reset: true, duration: 3000}} href="https://toss.me/monochrom">Toss</a>
-	<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://github.com/MisileLab/donatewithcrypto">Crypto</a>
+	<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://toss.me/monochrom">Toss</a>
 </div>
 <details id="gistgithub" use:reveal={{ transition: "slide", reset: true, duration: 3000}}>
 	<summary>Commit history</summary>
