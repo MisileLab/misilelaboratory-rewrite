@@ -32,7 +32,8 @@ misilelaboratory make a open source program that does not exist or improve than 
 		<a href="https://crates.io/crates/dura" transition:fly="{{ x: flyx, duration: 1000 }}">Dura release</a>
 		<a href="https://github.com/misilelab/simple-random-numbers" transition:fly="{{ x: flyx, duration: 1200 }}">random number generator</a>
 		<a href="https://github.com/misilelab/doxa-sherry-alarm" transition:fly="{{ x: flyx, duration: 1400 }}">doxa sherry alarm</a>
-		<a href="https://github.com/misilelab3/ideas" transition:fly="{{ x: flyx, duration: 1600}}">momoi</a>
+		<a href="https://github.com/MisileLab/midori" transition:fly="{{ x: flyx, duration: 1600}}">midori</a>
+		<a href="https://github.com/MisileLab/yuzu" transition:fly="{{ x: flyx, duration: 1800}}">yuzu</a>
 	{/if}
 </details>
 <teamstitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Teams</teamstitle>
