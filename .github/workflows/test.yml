@@ -1,0 +1,26 @@
+name: Build and Deploy
+on: pull_request
+
+jobs:
+  build:
+    concurrency: ci-${{ github.ref }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: install dependencies
+        run: yarn install
+
+      - name: Build
+        run: yarn build
+
+ci-success:
+  name: ci
+  if: ${{ success() }}
+  needs:
+    - build
+  runs-on: ubuntu-latest
+  steps:
+    - name: CI succeeded
+      run: exit 0
