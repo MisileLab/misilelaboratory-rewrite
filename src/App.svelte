@@ -23,7 +23,7 @@ misilelaboratory make a open source program that does not exist or improve than 
 <details id="details" use:reveal={{ transition: "slide", reset: true, duration: 2500}} bind:open={visible["projects2021"]}>
 	<summary>2021</summary>
 	{#if visible["projects2021"]}
-		<a href="https://github.com/misilelab/furluck-bot/" transition:fly="{{ x: flyx, duration: 1000 }}">furluck bot</a>
+		<a href="https://github.com/misilelab/furluck-bot" transition:fly="{{ x: flyx, duration: 1000 }}">furluck bot</a>
 	{/if}
 </details>
 <details id="details" use:reveal={{ transition: "slide", reset: true, duration: 3000}} bind:open={visible["projects2022"]}>
@@ -49,7 +49,7 @@ misilelaboratory make a open source program that does not exist or improve than 
 		<a href="https://github.com/spacedev-official" transition:fly="{{ x: flyx, duration: 1000 }}">spacedev</a>
 	{/if}
 	{#if visible["orgs2022"]}
-		<a href="https://github.com/graymonochrome" transition:fly="{{ x: flyx, duration: 1500 }}">monochrome</a>
+		<a href="https://github.com/graymonochrome" transition:fly="{{ x: flyx, duration: 1500 }}">with klosie!</a>
 	{/if}
 </details>
 <profilestitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Profiles</profilestitle>
@@ -57,11 +57,11 @@ misilelaboratory make a open source program that does not exist or improve than 
 	<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://github.com/misilelab">Github</a>
 	<a use:reveal={{ transition: "slide", reset: true, duration: 3000}} href="https://gitlab.com/misilelab">Gitlab</a>
 	<a use:reveal={{ transition: "slide", reset: true, duration: 3500}} href="https://gitea.misilelaboratory.xyz/misilelaboratory">Gitea</a>
-	<a use:reveal={{ transition: "slide", reset: true, duration: 4000}} href="https://monochrome.misilelaboratory.xyz">Monochrome</a>
+	<a use:reveal={{ transition: "slide", reset: true, duration: 4000}} href="https://klosie.misilelaboratory.xyz">Klosie</a>
 </div>
 <donatestitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Donate me</donatestitle>
 <div class="donate">
-	<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://toss.me/monochrom">Toss</a>
+	<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://toss.me/klosie">Toss</a>
 </div>
 <details id="gistgithub" use:reveal={{ transition: "slide", reset: true, duration: 3000}}>
 	<summary>Commit history</summary>
