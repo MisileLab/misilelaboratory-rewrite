@@ -1,5 +1,5 @@
 name: Build and Deploy
-on: pull_request
+on: [pull_request, push]
 
 jobs:
   build:
@@ -15,12 +15,12 @@ jobs:
       - name: Build
         run: yarn build
 
-ci-success:
-  name: ci
-  if: ${{ success() }}
-  needs:
-    - build
-  runs-on: ubuntu-latest
-  steps:
-    - name: CI succeeded
-      run: exit 0
+  ci-success:
+    name: ci
+    if: ${{ success() }}
+    needs:
+      - build
+    runs-on: ubuntu-latest
+    steps:
+      - name: CI succeeded
+        run: exit 0
