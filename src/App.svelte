@@ -49,7 +49,7 @@ misilelaboratory make a open source program that does not exist or improve than 
 		<a href="https://github.com/spacedev-official" transition:fly="{{ x: flyx, duration: 1000 }}">spacedev</a>
 	{/if}
 	{#if visible["orgs2022"]}
-		<a href="https://github.com/graymonochrome" transition:fly="{{ x: flyx, duration: 1500 }}">with klosie!</a>
+		<a href="https://github.com/klosie" transition:fly="{{ x: flyx, duration: 1500 }}">with klosie!</a>
 	{/if}
 </details>
 <profilestitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Profiles</profilestitle>
