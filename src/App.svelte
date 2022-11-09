@@ -9,15 +9,15 @@
 	let flyx = -40;
 </script>
 
-<div>
+<box>
 	<h1 use:reveal={{ transition: "slide", reset: true, duration: 500 }}>MisileLaboratory</h1>
-</div>
-<div>
+</box>
+<box>
 	<h1 use:reveal={{ transition: "slide", reset: true, duration: 500 }}>Malkuth Reverbation</h1>
-</div>
-<div>
+</box>
+<box>
 	<h1 use:reveal={{ transition: "slide", reset: true, duration: 500 }}>Blank</h1>
-</div>
+</box>
 <!--
 <projectstitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Projects</projectstitle>
 <details id="details" use:reveal={{ transition: "slide", reset: true, duration: 2500}} bind:open={visible["projects2021"]}>
@@ -68,11 +68,10 @@
 	<iframe title="gistgithub" src="https://gist.github.com/MisileLab/5d19a8216e9376ae5ec36a768fd8fdff.pibb" frameborder=0 scrolling="no" style="width: 459px;"></iframe>
 </details> -->
 <style>
-	div {
+	box {
 		margin: auto;
 		width: 1920;
 		height: 500;
-		padding: 10px;
 	}
 	
 	h1 {
