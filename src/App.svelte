@@ -9,15 +9,9 @@
 	let flyx = -40;
 </script>
 
-<box>
-	<h1 use:reveal={{ transition: "slide", reset: true, duration: 500 }}>MisileLaboratory</h1>
-</box>
-<box>
-	<h1 use:reveal={{ transition: "slide", reset: true, duration: 500 }}>Malkuth Reverbation</h1>
-</box>
-<box>
-	<h1 use:reveal={{ transition: "slide", reset: true, duration: 500 }}>Blank</h1>
-</box>
+<h1 use:reveal={{ transition: "slide", reset: true, duration: 500 }}>MisileLaboratory</h1>
+<h1 use:reveal={{ transition: "slide", reset: true, duration: 500 }}>Malkuth Reverbation</h1>
+<h1 use:reveal={{ transition: "slide", reset: true, duration: 500 }}>Blank</h1>
 <!--
 <projectstitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Projects</projectstitle>
 <details id="details" use:reveal={{ transition: "slide", reset: true, duration: 2500}} bind:open={visible["projects2021"]}>
