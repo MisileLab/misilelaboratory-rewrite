@@ -15,10 +15,10 @@
 	let flyx = -40;
 </script>
 
-<h1 use:reveal={{ transition: "slide", reset: true, duration: 500 }}>Welcome to misileLaboratory</h1>
-<description use:reveal={{ transition: "slide", reset: true, duration: 1000 }}>
-misilelaboratory make a open source program that does not exist or improve than others.
-</description>
+<h1 use:reveal={{ transition: "slide", reset: true, duration: 500 }}>MisileLaboratory</h1>
+<h1 use:reveal={{ transition: "slide", reset: true, duration: 500 }}>Malkuth Reverbation</h1>
+<h1 use:reveal={{ transition: "slide", reset: true, duration: 500 }}>Blank</h1>
+<!--
 <projectstitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Projects</projectstitle>
 <details id="details" use:reveal={{ transition: "slide", reset: true, duration: 2500}} bind:open={visible["projects2021"]}>
 	<summary>2021</summary>
@@ -66,91 +66,14 @@ misilelaboratory make a open source program that does not exist or improve than 
 <details id="gistgithub" use:reveal={{ transition: "slide", reset: true, duration: 3000}}>
 	<summary>Commit history</summary>
 	<iframe title="gistgithub" src="https://gist.github.com/MisileLab/5d19a8216e9376ae5ec36a768fd8fdff.pibb" frameborder=0 scrolling="no" style="width: 459px;"></iframe>
-</details>
+</details> -->
 <style>
-
-	#gistgithub {
-		margin-top: 20px;
-		margin-left: 17.4%;
-		font-size: 1.5em;
-		color: #B667F1;
-	}
-
-	#details {
-		margin-left: 17.4%;
-		font-size: 1.5em;
-		color: #B667F1;
-	}
-
-	.profile {
-		margin-left: 17.4%;
-		font-size: 1.5em;
-	}
-
-	.donate {
-		margin-left: 17.4%;
-		font-size: 1.5em;
-	}
-
-	profilestitle {
-		margin: auto;
-		margin-top: 50px;
-		margin-left: 17.4%;
-		font-size: 1.5em;
-		color: #B667F1;
-	}
-
-	projectstitle {
-		display: block;
-		color: #9C51E0;
-		font-size: 1.7em;
-		margin: auto;
-		margin-top: 50px;
-		margin-left: 17.4%;
-	}
-
-	donatestitle {
-		display: block;
-		color: #9C51E0;
-		font-size: 1.7em;
-		margin: auto;
-		margin-top: 50px;
-		margin-left: 17.4%;
-	}
-
-
-	teamstitle {
-		display: block;
-		color: #9C51E0;
-		font-size: 1.7em;
-		margin: auto;
-		margin-top: 50px;
-		margin-left: 17.4%;
-	}
-
-	description {
-		display: block;
-		color: #9C51E0;
-		font-size: 2em;
-		text-align: center;
-		margin: auto;
-		margin-top: 40px;
-	}
-
 	h1 {
-		color: #8A39E1;
-		font-size: 3em;
-		font-weight: 100;
-		text-align: center;
-		display: block;
+	  	width: 1920;
+		height: 500;
 		margin: auto;
-		margin-top: 10px;
 	}
-
-	a {
-		display: block;
-	}
-
+	
 	:global(body) {
 		background-color: #ECC488;
 		font-weight: 100;
