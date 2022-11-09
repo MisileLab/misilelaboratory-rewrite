@@ -62,9 +62,13 @@
 	<iframe title="gistgithub" src="https://gist.github.com/MisileLab/5d19a8216e9376ae5ec36a768fd8fdff.pibb" frameborder=0 scrolling="no" style="width: 459px;"></iframe>
 </details> -->
 <style>
-	h1 {
-	  	width: 1920;
+	box {
+		margin: auto;
+		width: 1920;
 		height: 500;
+	}
+	
+	h1 {
 		margin: auto;
 	}
 	
