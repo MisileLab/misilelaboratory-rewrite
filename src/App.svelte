@@ -14,6 +14,7 @@
 		<p class="desc">- Gentoo linux musl/clang</p>
 		<p class="desc">- Artix linux openrc</p>
 		<p class="desc">- Use arch btw</p>
+		<p class="desc">- Fedora linux</p>
 	</div>
 </body>
 
