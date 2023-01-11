@@ -10,11 +10,12 @@
 		<p class="desc">- 원하는 것을 하는 것입니다.</p>
 		<h1 class="nottitle">쓰는 컴퓨터 OS는</h1>
 		<p class="desc">- Windows 11 Dev channel</p>
-		<p class="desc">- Freebsd</p>
 		<p class="desc">- Gentoo linux musl/clang</p>
-		<p class="desc">- Artix linux openrc</p>
-		<p class="desc">- Use arch btw</p>
-		<p class="desc">- Fedora linux</p>
+		<p class="desc">- Use artix openrc/arch btw</p>
+		<p class="desc">- Fedora/Rocky linux</p>
+		<p class="desc">- OpenSUSE Tumbleweed</p>
+		<p class="desc">- Alpine Linux (not docker, really)</p>
+		<p class="desc">- Ubuntu LTS</p>
 	</div>
 </body>
 
