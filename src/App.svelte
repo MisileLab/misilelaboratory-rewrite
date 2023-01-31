@@ -11,11 +11,14 @@
 		<h1 class="nottitle">쓰는 컴퓨터 OS는</h1>
 		<p class="desc">- Windows 11 Dev channel</p>
 		<p class="desc">- Gentoo linux musl/clang</p>
-		<p class="desc">- Use artix openrc/arch btw</p>
-		<p class="desc">- Fedora/Rocky linux</p>
+		<p class="desc">- Arch based Linux</p>
+		<p class="desc">  - artix openrc</p>
+		<p class="desc">  - use arch btw</p>
+		<p class="desc">  - EndeavourOS xfce</p>
+		<p class="desc">- Fedora/Rocky Linux</p>
 		<p class="desc">- OpenSUSE Tumbleweed</p>
 		<p class="desc">- Alpine Linux (not docker, really)</p>
-		<p class="desc">- Ubuntu LTS</p>
+		<p class="desc">- Ubuntu LTS/Non-LTS</p>
 	</div>
 </body>
 
