@@ -13,9 +13,7 @@
 		<p class="desc">- Arch based Linux</p>
 		<p class="desc">-   use arch btw</p>
 		<p class="desc">-   EndeavourOS xfce</p>
-		<p class="desc">- Fedora/Rocky Linux</p>
-		<p class="desc">- Alpine Linux (not docker, really)</p>
-		<p class="desc">- Ubuntu LTS</p>
+		<p class="desc">- Bedrock Linux based on Ubuntu LTS</p>
 	</div>
 </body>
 
