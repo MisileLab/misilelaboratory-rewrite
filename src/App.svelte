@@ -3,11 +3,11 @@
 		<h1>Hello, Misile</h1>
 	</div>
 	<div class="container column-flex maxit">
-		<h1 class="nottitle">저의 목표는</h1>
-		<p class="desc">- 새로운 것을 빠르게 활용하는 것입니다.</p>
-		<p class="desc">- 많은 오픈 소스 프로그램과 라이브러리를 만드는 것입니다.</p>
-		<p class="desc">- 오래된 표준에 얽혀있지 않고 새로운 기술로 빠르게 이전하는 것입니다.</p>
-		<p class="desc">- 원하는 것을 하는 것입니다.</p>
+		<h1 class="nottitle">My purpose</h1>
+		<p class="desc">- Make and use new things quickly</p>
+		<p class="desc">- Make open source programs and libraries</p>
+		<p class="desc">- No unmaintained libraries</p>
+		<p class="desc">- Making what i want</p>
 		<h1 class="nottitle">쓰는 컴퓨터 OS는</h1>
 		<p class="desc">- Windows 11 Dev channel</p>
 		<p class="desc">- Arch based Linux</p>
