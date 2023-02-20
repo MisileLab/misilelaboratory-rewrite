@@ -8,7 +8,7 @@
 		<p class="desc">- Make open source programs and libraries</p>
 		<p class="desc">- No unmaintained libraries</p>
 		<p class="desc">- Making what i want</p>
-		<h1 class="nottitle">쓰는 컴퓨터 OS는</h1>
+		<h1 class="nottitle">My OS</h1>
 		<p class="desc">- Windows 11 Dev channel</p>
 		<p class="desc">- Arch based Linux</p>
 		<p class="desc">-   use arch btw</p>
