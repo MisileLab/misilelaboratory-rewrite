@@ -15,7 +15,6 @@
 		<p class="desc">-   EndeavourOS xfce</p>
 		<p class="desc">- Bedrock Linux based on Ubuntu LTS</p>
 		<p class="desc">- Proxmox OS (Debian Based)</p>
-		<p class="desc">-   Bedrock Linux based on Slackware Linux</p>
 	</div>
 </body>
 
