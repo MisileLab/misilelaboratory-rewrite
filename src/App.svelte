@@ -9,12 +9,12 @@
 		<p class="desc">- No unmaintained libraries</p>
 		<p class="desc">- Making what i want</p>
 		<h1 class="nottitle">My OS</h1>
-		<p class="desc">- Windows Canary channel</p>
 		<p class="desc">- Arch based Linux</p>
 		<p class="desc">-   use arch btw</p>
 		<p class="desc">-   EndeavourOS xfce</p>
-		<p class="desc">- Bedrock Linux based on Ubuntu LTS</p>
 		<p class="desc">- Proxmox OS (Debian Based)</p>
+		<p class="desc">-   Windows 10</p>
+		<p class="desc">-   Bedrock Linux based on Void Linux (glibc)
 	</div>
 </body>
 
