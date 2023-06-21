@@ -14,7 +14,7 @@
 		<p class="desc">-   EndeavourOS kde</p>
 		<p class="desc">- Proxmox OS (Debian Based)</p>
 		<p class="desc">-   Bedrock Linux based on Void Linux (glibc)</p>
-                <p class="desc">-   Ubuntu LTS
+                <p class="desc">-   Ubuntu LTS</p>
 		<p class="desc">-   FreeBSD</p>
 	</div>
 </body>
