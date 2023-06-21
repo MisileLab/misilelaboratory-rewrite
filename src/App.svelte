@@ -11,9 +11,11 @@
 		<h1 class="nottitle">My OS</h1>
 		<p class="desc">- Arch based Linux</p>
 		<p class="desc">-   use arch btw</p>
-		<p class="desc">-   EndeavourOS sway</p>
+		<p class="desc">-   EndeavourOS kde</p>
 		<p class="desc">- Proxmox OS (Debian Based)</p>
-		<p class="desc">-   Bedrock Linux based on Void Linux (glibc)
+		<p class="desc">-   Bedrock Linux based on Void Linux (glibc)</p>
+                <p class="desc">-   Ubuntu LTS
+		<p class="desc">-   FreeBSD</p>
 	</div>
 </body>
 
